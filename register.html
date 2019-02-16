@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta name="author" content="">
+
+    <title>
+
+        Register &middot;
+
+    </title>
+
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/css/application-startup.css" rel="stylesheet">
+    <link href="assets/css/animate.css" rel="stylesheet">
+    <link href="assets/css/green.css" rel="stylesheet">
+    <link href="assets/style.css" rel="stylesheet">
+
+    <style>
+        /* note: this is a hack for ios iframe for bootstrap themes shopify page */
+        /* this chunk of css is not part of the toolkit :) */
+        body {
+            width: 1px;
+            min-width: 100%;
+            *width: 100%;
+        }
+    </style>
+
+</head>
+
+
+<body class="gray-bg">
+
+<div class="middle-box text-center loginscreen animated fadeIn">
+
+    <h1 class="logo-name">UPICER</h1>
+            <form class="m-t" method="post">
+                <input type="hidden" name="redirect_to" value="">
+                <div class="form-group">
+                    <div class="row">
+                        <div class="col-xs-4" style="padding-right:0;">
+                            <input type="text" class="form-control" placeholder="姓名" name="name" required="required">
+                        </div>
+                        <div class="col-xs-8">
+                            <input type="text" class="form-control" placeholder="身份证号码" name="pi" required="required">
+                        </div>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <select class="form-control" name="sex">
+                        <option value="0">男</option>
+                        <option value="1">女</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <input type="text" name="username" placeholder="用户名" class="form-control" required="required">
+                </div>
+                <div class="form-group">
+                    <input type="text" name="email" placeholder="E-mail" class="form-control" required="required">
+                </div>
+                <div class="form-group">
+                    <input type="password" name="password1" placeholder="设置密码" class="form-control" required="required">
+                </div>
+                <div class="form-group">
+                    <input type="password" name="password2" placeholder="确认密码"  class="form-control" required="required">
+                </div>
+                <button type="submit" class="btn btn-primary btn-block m-b">注册</button>
+                <br><br>
+                <p class="text-muted text-center"><small>已拥有UPICER账号？</small></p>
+                <a class="btn btn-sm btn-white btn-block" href="login.html">立即登录</a>
+            </form>
+    <p class="m-t"> <small>UPICER 统一登录系统 Beta</small> </p>
+
+
+
+</div>
+
+
+
+</body>
+</html>
