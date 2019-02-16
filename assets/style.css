@@ -1,0 +1,41 @@
+/**
+* 基础框架
+*/
+body {
+  font-family: "Microsoft Yahei", 'Open Sans', "Myriad Set Pro", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+  background: #FFF;
+}
+p {
+  line-height: 1.5;
+}
+.app-header {
+  background-size: cover;
+  background-blend-mode: multiply;
+  background-color: #6b6b6b;
+}
+.middle-box {
+  height: 400px;
+  width: 400px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -250px;
+  margin-left: -200px;
+  z-index: 100;
+}
+.middle-box.loginscreen {
+  width: 300px;
+  margin-left: -150px;
+  margin-top: -290px;
+}
+.middle-box h1 {
+  font-size: 24px;
+  font-weight: normal;
+}
+.logo-name {
+  color: #AAA;
+  font-size: 180px;
+  text-align: center;
+  letter-spacing: 4px;
+  margin-bottom: 20px;
+}
